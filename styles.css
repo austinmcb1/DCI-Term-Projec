@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#topSection{
+    text-align: center;
+ }
+#Contact {
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+ }
+ .title {
+    color: #004F2D;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 1rem;
+    }
+
+img {
+    border-radius: 60%;
+    }
+.learn {
+    color: #EFF8E2;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    
+    }
+#border1 {
+    background-color: #348AA7;
+}
+#boxone {
+    background-color:#004F2D;
+    text-align: center;
+}
+.bottomboxes {
+    margin-top: rem;
+}
+#boxtwo {
+    background-color: #2E294E;
+}
+#boxthree {
+    background-color: #C84C09;
+}
+
