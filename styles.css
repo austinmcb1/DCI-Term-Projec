@@ -4,44 +4,45 @@ body {
 }
 #topSection{
     text-align: center;
- }
+}
 #Contact {
     font-weight: 800;
-    font-family: 'Playfair Display', serif;
- }
+    font-family: 'Playfair Display';
+}
 .title {
     color: #004F2D;
     font-family: 'Playfair Display', serif;
-    font-weight: 900;
     font-size: 4rem;
     text-align: center;
     padding-top: 1rem;
-    }
-
+}
 img {
     border-radius: 60%;
-    }
+}
 .learn {
     color: #EFF8E2;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
     font-size: 2.5rem;
     text-align: center;
-    }
+}
 .learn1 {
     color: #DBBBF5;
-    font-family: 'Playfair Display', serif;
-    font-weight: 200;
+    font-family: 'Playfair Display';
+    font-weight: 700;
     font-size: 2rem;
     text-align: center;
 }
 .paras {
     color: #FFFFFF;
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-family: 'Radio Canada';
+    font-weight: 600;
     font-size: 1rem;
 }
 #border1 {
     background-color: #348AA7;
+    max-width: 90vw;
+    max-height: fit-content;
+    margin-top: 7vw;
 }
 #boxone {
     background-color:#004F2D;
@@ -49,6 +50,7 @@ img {
 }
 .bottomboxes {
     text-align: center;
+    margin-top: 12vw;
 }
 #boxtwo {
     background-color: #2E294E;
@@ -56,4 +58,40 @@ img {
 #boxthree {
     background-color: #C84C09;
 }
-
+.nabar1 {
+    color: #004F2D;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.dark-mode {
+    background-color: #92817A;
+    color: black;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+#darkmode {
+    background-color: transparent;
+    border-style: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: right;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
