@@ -19,6 +19,7 @@ body {
 }
 img {
     border-radius: 60%;
+    overflow: hidden;
 }
 .learn {
     color: #EFF8E2;
@@ -39,12 +40,15 @@ img {
     font-family: 'Radio Canada';
     font-weight: 600;
     font-size: 1rem;
+    width: 100%; 
+    
 }
 #border1 {
     background-color: #348AA7;
     max-width: 90vw;
     max-height: fit-content;
     margin-top: 7vw;
+    overflow-wrap: break-word;
 }
 #boxone {
     background-color:#004F2D;
@@ -126,3 +130,11 @@ img {
     padding-bottom: 2rem;
     padding-right: 2rem;
 }
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .learn, img, .right {
+      width: 100%;
+    }
+  }
+
+    
