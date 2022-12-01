@@ -1,0 +1,20 @@
+body {
+    
+}
+#title {
+    color: #004F2D;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+#myDIV {
+    background-color: #004F2D;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.pb-3 {
+    color: #FFFFFF
+}

@@ -111,9 +111,8 @@ img {
 }
 .bi-file-earmark-person {
     color: #004F2D;
-    width: 2.5rem;
-    height: 2.5rem;
-    text-align: center;
+    width: 3rem;
+    height: 3rem;
     text-decoration: none;
     margin-bottom: 2rem;
     margin-top: 1.5rem;
@@ -131,6 +130,8 @@ img {
     margin-left: 95%;
     color:#004F2D;
 }
-
-
-    
+@media screen and (max-width: 600px) {
+    #darkmode {
+      margin-left: 90vw;
+    }
+}
