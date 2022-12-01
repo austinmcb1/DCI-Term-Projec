@@ -57,6 +57,7 @@ img {
 .bottomboxes {
     text-align: center;
     margin-top: 12vw;
+    margin-bottom: 2rem;
 }
 #boxtwo {
     background-color: #2E294E;
@@ -127,11 +128,23 @@ img {
     padding-right: 2rem;
     font-size: 2rem; 
     width: 2rem;
-    margin-left: 95%;
+    margin-left: 97%;
     color:#004F2D;
 }
 @media screen and (max-width: 600px) {
     #darkmode {
       margin-left: 90vw;
     }
+}
+.fa-id-card-o {
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin-top: .5rem;
+}
+.fa-folder-open-o {
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin-top: .5rem;
 }
