@@ -21,6 +21,12 @@
 <body>
   <button id="darkmode" onclick="myFunction()"><i class="fa fa-moon-o"></i></button>
   <script>
+    function myFunction() {
+       var element = document.getElementById("darkmode");
+       element.classList.add("title-one");
+    }
+    </script>
+  <script>
   function myFunction() {
      var element = document.body; 
      element.classList.toggle("dark-mode");
@@ -72,7 +78,7 @@
   </nav>
 
 
-<h1 class="title">Austin McBride</h1>
+<h1 id="title" class="title">Austin McBride</h1>
   <header class="pb-3 mb-4 border-bottom">
     <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
     </a>
@@ -95,14 +101,14 @@
     <div class="col-md-6">
       <div class="h-100 p-5 rounded-3" id="boxtwo">
         <p class="learn1">Projects</p>
-        <p class="paras">I have been involved in numerous projects spanning various fields of profession. Here I have chosen to display those of interest to me. I hope they interest you as well!</p>
+        <p class="paras" style="padding-bottom: 1rem">I have been involved in numerous projects spanning various fields of profession. Here I have chosen to display those of interest to me. I hope they interest you as well!</p>
         <a href="projects" class="fa fa-folder-open-o" type="button"></a>
       </div>
     </div>
     <div class="col-md-6">
       <div class="h-100 p-5 rounded-3" id="boxthree">
         <p class="learn1">Resume</p>
-        <p class="paras">I am a motivated student at Washington and Lee where I am a first-year student and am seeking out a degree in the field of economics/business which I look forward to further exploring.</p>
+        <p class="paras" style="padding-bottom: 1rem">I am a motivated student at Washington and Lee where I am a first-year student and am seeking out a degree in the field of economics/business which I look forward to further exploring.</p>
         <a href="webdev" class="fa fa-id-card-o"></a>
       </div>
     </div>
