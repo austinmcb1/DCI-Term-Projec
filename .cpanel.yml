@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/amcbride/public_html/
+    - export DEPLOYPATH=/home/amcbridewludci/public_html/
     - /bin/cp -R * $DEPLOYPATH
