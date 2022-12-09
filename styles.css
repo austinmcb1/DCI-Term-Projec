@@ -1,6 +1,8 @@
 body {
-    margin: 0px;
-    padding: 0px;
+    background-image: url('balloons.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #topSection{
     text-align: center;
@@ -66,6 +68,7 @@ img {
     text-align: center;
     margin-top: 12vw;
     margin-bottom: 2rem;
+    margin-bottom: 10rem;
 }
 #boxtwo {
     background-color: #2E294E;
@@ -94,8 +97,8 @@ img {
 
 }
 .dark-mode {
-    background-color: #222;
-    transition: background-color .3s
+    background-image: url('darkballoons.jpg');
+    
 }
 .fa:hover {
     opacity: 0.7;
@@ -136,12 +139,18 @@ img {
     padding-right: 2rem;
     font-size: 2rem; 
     width: 2rem;
-    margin-left: 97%;
+    margin-left: 95%;
     color:#004F2D;
 }
 @media screen and (max-width: 600px) {
     #darkmode {
       margin-left: 90vw;
+    }
+    body {
+        background-image: url('balloons.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
 }
 .fa-id-card-o {
