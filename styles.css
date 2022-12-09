@@ -76,15 +76,6 @@ img {
 #boxthree {
     background-color: #F19953;
 }
-#navbar1 {
-    color: #348AA7;
-    font-family: 'Playfair Display';
-    font-weight: 500;
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 1rem;
-    text-decoration: none;
-}
 #navbar2 {
     color: #004F2D;
     font-family: 'Playfair Display';
@@ -96,9 +87,31 @@ img {
     text-decoration: none;
 
 }
+.fa-phone {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-left: .2rem;
+    margin-right: .5rem;
+    color: #004F2D;
+    font-weight: 700rem;
+}
+#number {
+  text-decoration: none;
+  color: #004F2D;
+}
+.fa-envelope {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-left: rem;
+    margin-right: .5rem;
+    color: #348AA7;
+}
+#mail {
+    text-decoration: none;
+    color: #348AA7;
+}
 .dark-mode {
-    background-image: url('darkballoons.jpg');
-    
+    background-image: url('darkballoons.jpg'); 
 }
 .fa:hover {
     opacity: 0.7;
@@ -115,7 +128,7 @@ img {
     justify-content: center;
     margin-top: .5rem;
     margin-left: .5rem;
-  }
+}
 .linkedin-bcgd {
     width: 3rem;
     height: 3rem;
@@ -126,8 +139,7 @@ img {
     width: 3rem;
     height: 3rem;
     text-decoration: none;
-    margin-bottom: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
 #darkmode {
     background-color: transparent;
@@ -137,10 +149,10 @@ img {
     text-align: right;
     padding-bottom: 2rem;
     padding-right: 2rem;
-    font-size: 2rem; 
+    font-size: 2.5rem; 
     width: 2rem;
-    margin-left: 95%;
-    color:#004F2D;
+    margin-left: 97vw;
+    color:#FFFFFF;
 }
 @media screen and (max-width: 600px) {
     #darkmode {
