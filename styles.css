@@ -159,11 +159,13 @@ img {
       margin-left: 90vw;
     }
     body {
-        background-image: url('balloons.jpg');
+        background-image: url('mobilebg.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
     }
+    
+    
 }
 .fa-id-card-o {
     color: white;
