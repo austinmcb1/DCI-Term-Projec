@@ -1,12 +1,16 @@
 body {
-  background-color: #ffffff;
   margin: 0;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
   padding: 0rem !important;
+  background-image: url('mobilebg copy.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 
 .contents {
     position: relative;

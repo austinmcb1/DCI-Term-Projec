@@ -1,3 +1,9 @@
+body {
+    background-image: url('balloons.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 #title {
     color: #004F2D;
     font-family: 'Playfair Display', serif;
