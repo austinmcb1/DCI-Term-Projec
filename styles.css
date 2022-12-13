@@ -1,7 +1,14 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+  }
 body {
-    background-image: url('balloons.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url('balloons.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 #topSection{
@@ -59,6 +66,7 @@ img {
     max-height: fit-content;
     margin-top: 7vw;
     overflow-wrap: break-word;
+
 }
 #boxone {
     background-color:#004F2D;
@@ -112,6 +120,10 @@ img {
 }
 .dark-mode {
     background-image: url('darkballoons.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .fa:hover {
     opacity: 0.7;
@@ -154,18 +166,17 @@ img {
     margin-left: 97vw;
     color:#FFFFFF;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     #darkmode {
-      margin-left: 90vw;
-    }
-    body {
-        background-image: url('mobilebg.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        display: hidden;
+    } 
+    html {
+        background: url('balloons.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
-    }
-    
-    
+    } 
 }
 .fa-id-card-o {
     color: white;

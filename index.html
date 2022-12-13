@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
@@ -19,13 +18,15 @@
     <title>Austin McBride</title>
 </head>
 <body>
-  <button id="darkmode" onclick="myFunction()"><i style="font-weight:900;" class="fa fa-moon-o"></i></button>
-  <script>
+
+<button id="darkmode" onclick="myFunction(); removeProperty()"><i style="font-weight:900;" class="fa fa-moon-o"></i></button>
+<script>
   function myFunction() {
      var element = document.body; 
      element.classList.toggle("dark-mode");
   }
-  </script>
+</script>
+
   <nav class="navbar sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" style="color: #348AA7" id="Contact"></a>
@@ -58,7 +59,6 @@
       </div>
     </div>
   </nav>
-
 
 <h1 id="title" id="title-one" class="title">Austin McBride</h1>
   <header class="pb-3 mb-4 border-bottom">
@@ -98,8 +98,6 @@
 </section>
 </div>
 
-
-
 <section>
 <script>
   function myFun() {
@@ -111,8 +109,7 @@
     confirm("Email Austin McBride?");
 }
 </script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </section>
 </body>
 </html>
